@@ -14,7 +14,38 @@
   <title>Project Tracker</title>
 </head>
 <body>
-  <h1>Project Tracker</h1>
+  <!-- header & live time -->
+  <header class="jumbotron jumbotron-fluid custom-jumbotron">
+    <div class="container">
+      <h1>Project Tracker</h1>
+      <h2>Current Time &amp; Date: <br /> <span id="time-display">00:00:00</span></h2>
+    </div>
+  </header>
+
+  <!-- side box to enter in project information to log -->
+  <main class="container-fluid">
+    <div class="row">
+      <section class="col-12 col-md-4 col-lg-3">
+        <div class="card custom-card">
+          <h3 class="card-header">
+            Instructions
+          </h3>
+          <div class="card-body">
+            <div class="card-text">
+              Click the button below to open a form and provide information for the following:
+            </div>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Project Name</li>
+            <li class="list-group-item">Project Type</li>
+            <li class="list-group-item">Due Date</li>
+            <li class="list-group-item">Hourly Rate</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
+  
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
