@@ -14,3 +14,4 @@ function displayTime() {
   timeDisplayEl.text(rightNow)
 }
 
+// adding project data to page

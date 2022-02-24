@@ -1,9 +1,9 @@
 :root {
-  --blue: #2980b9;
-  --lightblue: #3498db;
-  --light: #ecf0f1;
-  --darkblue: #2c3e50;
-  --red: #e74c3c;
+  --blue: #2075ad;
+  --lightblue: #4db1f3;
+  --light: #d8ddde;
+  --darkblue: #293c50;
+  --red: #cf3d2c;
 }
 
 body {
@@ -20,4 +20,19 @@ h4,
 h5,
 h6 {
   font-weight: 700;
+}
+
+thead {
+  background-color: var(--red);
+  color: var(--light);
+  font-weight: 700;
+}
+
+.custom-jumbotron,
+.custom-card .card-header,
+.custom-card .card-footer,
+.custom-model .model-header,
+.custom-model .model.footer {
+  background-color: var(--darkblue);
+  color: var(--light);
 }
